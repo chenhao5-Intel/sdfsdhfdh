@@ -77,48 +77,157 @@
 //    return 0;
 //}
 
+//#include <iostream>
+//using namespace std;
+//
+//class excvcvbtyhdf3453
+//{
+//public:
+//    virtual void Execute1(int* cmdBuffer);
+//    virtual void Execute2(int* cmdBuffer) = 0;
+//};
+//
+//class hkuzvxcfaxvxqqfhj355424
+//{
+//public:
+//    excvcvbtyhdf3453* m_picturePkt = nullptr;
+//};
+//
+//class dyhfghnbfgjjfgj : public hkuzvxcfaxvxqqfhj355424
+//{
+//public:
+//    void yfggvsdd456546hghjghkj(int* cmdBuffer);
+//};
+//
+//void dyhfghnbfgjjfgj::yfggvsdd456546hghjghkj(int* cmdBuffer)
+//{
+//    cout << "dyhfghnbfgjjfgj::yfggvsdd456546hghjghkj" << endl;
+//    m_picturePkt->Execute1(nullptr);
+//    m_picturePkt->Execute2(nullptr);
+//}
+//
+//void excvcvbtyhdf3453::Execute1(int* cmdBuffer)
+//{
+//    cout << "excvcvbtyhdf3453::Execute1" << endl;
+//}
+//
+//class hghghjgyjfhfgssf : public excvcvbtyhdf3453
+//{
+//public:
+//    virtual void Execute1(int* cmdBuffer) override;
+//    virtual void Execute2(int* cmdBuffer) override;
+//};
+//
+//class uyuimnfnbdfgwsz : public excvcvbtyhdf3453
+//{
+//public:
+//    virtual void Execute1(int* cmdBuffer) override;
+//    virtual void Execute2(int* cmdBuffer) override;
+//
+//};
+//
+//class srwqerfsdrgtfjgjk : public excvcvbtyhdf3453
+//{
+//public:
+//    virtual void Execute1(int* cmdBuffer) override;
+//    virtual void Execute2(int* cmdBuffer) override;
+//};
+//
+//void hghghjgyjfhfgssf::Execute1(int* cmdBuffer)
+//{
+//    cout << "hghghjgyjfhfgssf::Execute1" << endl;
+//}
+//void hghghjgyjfhfgssf::Execute2(int* cmdBuffer)
+//{
+//    cout << "hghghjgyjfhfgssf::Execute2" << endl;
+//}
+//
+//void uyuimnfnbdfgwsz::Execute1(int* cmdBuffer)
+//{
+//    cout << "uyuimnfnbdfgwsz::Execute1" << endl;
+//}
+//void uyuimnfnbdfgwsz::Execute2(int* cmdBuffer)
+//{
+//    cout << "uyuimnfnbdfgwsz::Execute2" << endl;
+//}
+//
+//void srwqerfsdrgtfjgjk::Execute1(int* cmdBuffer)
+//{
+//    cout << "srwqerfsdrgtfjgjk::Execute1" << endl;
+//}
+//void srwqerfsdrgtfjgjk::Execute2(int* cmdBuffer)
+//{
+//    cout << "srwqerfsdrgtfjgjk::Execute2" << endl;
+//}
+//
+//int main()
+//{
+//    dyhfghnbfgjjfgj* pkt = new dyhfghnbfgjjfgj();
+//
+//    pkt->m_picturePkt = new srwqerfsdrgtfjgjk();
+//    pkt->yfggvsdd456546hghjghkj(nullptr);
+//    delete pkt->m_picturePkt;
+//    pkt->m_picturePkt = nullptr;
+//
+//    pkt->m_picturePkt = new hghghjgyjfhfgssf();
+//    pkt->yfggvsdd456546hghjghkj(nullptr);
+//    delete pkt->m_picturePkt;
+//    pkt->m_picturePkt = nullptr;
+//
+//    pkt->m_picturePkt = new uyuimnfnbdfgwsz();
+//    pkt->yfggvsdd456546hghjghkj(nullptr);
+//    delete pkt->m_picturePkt;
+//    pkt->m_picturePkt = nullptr;
+//
+//    delete pkt;
+//    pkt = nullptr;
+//
+//    //system("pause");
+//    return 0;
+//}
+
 #include <iostream>
 using namespace std;
 
-class HevcDecodePicPkt
+class excvcvbtyhdf3453
 {
 public:
     virtual void Execute1(int* cmdBuffer);
     virtual void Execute2(int* cmdBuffer) = 0;
 };
 
-class HevcDecodeLongPkt
+class hkuzvxcfaxvxqqfhj355424
 {
 public:
-    HevcDecodePicPkt* m_picturePkt = nullptr;
+    excvcvbtyhdf3453* m_picturePkt = nullptr;
 };
 
-class HevcDecodeLongPktXe3_Lpm_Base : public HevcDecodeLongPkt
+class dyhfghnbfgjjfgj : public hkuzvxcfaxvxqqfhj355424
 {
 public:
-    void PackPictureLevelCmds(int* cmdBuffer);
+    void yfggvsdd456546hghjghkj(int* cmdBuffer);
 };
 
-void HevcDecodeLongPktXe3_Lpm_Base::PackPictureLevelCmds(int* cmdBuffer)
+void dyhfghnbfgjjfgj::yfggvsdd456546hghjghkj(int* cmdBuffer)
 {
-    cout << "HevcDecodeLongPktXe3_Lpm_Base::PackPictureLevelCmds" << endl;
+    cout << "dyhfghnbfgjjfgj::yfggvsdd456546hghjghkj" << endl;
     m_picturePkt->Execute1(nullptr);
     m_picturePkt->Execute2(nullptr);
 }
 
-void HevcDecodePicPkt::Execute1(int* cmdBuffer)
+void excvcvbtyhdf3453::Execute1(int* cmdBuffer)
 {
-    cout << "HevcDecodePicPkt::Execute1" << endl;
+    cout << "excvcvbtyhdf3453::Execute1" << endl;
 }
 
-class HevcDecodePicPktXe2_Lpm_Base : public HevcDecodePicPkt
+class hghghjgyjfhfgssf : public excvcvbtyhdf3453
 {
 public:
     virtual void Execute1(int* cmdBuffer) override;
     virtual void Execute2(int* cmdBuffer) override;
 };
 
-class HevcDecodePicPktXe3_Lpm_Base : public HevcDecodePicPkt
+class uyuimnfnbdfgwsz : public excvcvbtyhdf3453
 {
 public:
     virtual void Execute1(int* cmdBuffer) override;
@@ -126,61 +235,67 @@ public:
 
 };
 
-class HevcDecodePicPktXe_Lpm_Plus_Base : public HevcDecodePicPkt
+class srwqerfsdrgtfjgjk : public excvcvbtyhdf3453
 {
 public:
     virtual void Execute1(int* cmdBuffer) override;
     virtual void Execute2(int* cmdBuffer) override;
 };
 
-void HevcDecodePicPktXe2_Lpm_Base::Execute1(int* cmdBuffer)
+void hghghjgyjfhfgssf::Execute1(int* cmdBuffer)
 {
-    cout << "HevcDecodePicPktXe2_Lpm_Base::Execute1" << endl;
+    cout << "hghghjgyjfhfgssf::Execute1" << endl;
 }
-void HevcDecodePicPktXe2_Lpm_Base::Execute2(int* cmdBuffer)
+void hghghjgyjfhfgssf::Execute2(int* cmdBuffer)
 {
-    cout << "HevcDecodePicPktXe2_Lpm_Base::Execute2" << endl;
-}
-
-void HevcDecodePicPktXe3_Lpm_Base::Execute1(int* cmdBuffer)
-{
-    cout << "HevcDecodePicPktXe3_Lpm_Base::Execute1" << endl;
-}
-void HevcDecodePicPktXe3_Lpm_Base::Execute2(int* cmdBuffer)
-{
-    cout << "HevcDecodePicPktXe3_Lpm_Base::Execute2" << endl;
+    cout << "hghghjgyjfhfgssf::Execute2" << endl;
 }
 
-void HevcDecodePicPktXe_Lpm_Plus_Base::Execute1(int* cmdBuffer)
+void uyuimnfnbdfgwsz::Execute1(int* cmdBuffer)
 {
-    cout << "HevcDecodePicPktXe_Lpm_Plus_Base::Execute1" << endl;
+    cout << "uyuimnfnbdfgwsz::Execute1" << endl;
 }
-void HevcDecodePicPktXe_Lpm_Plus_Base::Execute2(int* cmdBuffer)
+void uyuimnfnbdfgwsz::Execute2(int* cmdBuffer)
 {
-    cout << "HevcDecodePicPktXe_Lpm_Plus_Base::Execute2" << endl;
+    cout << "uyuimnfnbdfgwsz::Execute2" << endl;
+}
+
+void srwqerfsdrgtfjgjk::Execute1(int* cmdBuffer)
+{
+    cout << "srwqerfsdrgtfjgjk::Execute1" << endl;
+}
+void srwqerfsdrgtfjgjk::Execute2(int* cmdBuffer)
+{
+    cout << "srwqerfsdrgtfjgjk::Execute2" << endl;
 }
 
 int main()
 {
-    HevcDecodeLongPktXe3_Lpm_Base* pkt = new HevcDecodeLongPktXe3_Lpm_Base();
+    dyhfghnbfgjjfgj* pkt1 = new dyhfghnbfgjjfgj();
+    dyhfghnbfgjjfgj* pkt2 = new dyhfghnbfgjjfgj();
+    dyhfghnbfgjjfgj* pkt3 = new dyhfghnbfgjjfgj();
 
-    pkt->m_picturePkt = new HevcDecodePicPktXe_Lpm_Plus_Base();
-    pkt->PackPictureLevelCmds(nullptr);
-    delete pkt->m_picturePkt;
-    pkt->m_picturePkt = nullptr;
+    pkt1->m_picturePkt = new srwqerfsdrgtfjgjk();
+    pkt1->yfggvsdd456546hghjghkj(nullptr);
+    delete pkt1->m_picturePkt;
+    pkt1->m_picturePkt = nullptr;
 
-    pkt->m_picturePkt = new HevcDecodePicPktXe2_Lpm_Base();
-    pkt->PackPictureLevelCmds(nullptr);
-    delete pkt->m_picturePkt;
-    pkt->m_picturePkt = nullptr;
+    pkt2->m_picturePkt = new hghghjgyjfhfgssf();
+    pkt2->yfggvsdd456546hghjghkj(nullptr);
+    delete pkt2->m_picturePkt;
+    pkt2->m_picturePkt = nullptr;
 
-    pkt->m_picturePkt = new HevcDecodePicPktXe3_Lpm_Base();
-    pkt->PackPictureLevelCmds(nullptr);
-    delete pkt->m_picturePkt;
-    pkt->m_picturePkt = nullptr;
+    pkt3->m_picturePkt = new uyuimnfnbdfgwsz();
+    pkt3->yfggvsdd456546hghjghkj(nullptr);
+    delete pkt3->m_picturePkt;
+    pkt3->m_picturePkt = nullptr;
 
-    delete pkt;
-    pkt = nullptr;
+    delete pkt1;
+    delete pkt2;
+    delete pkt3;
+    pkt1 = nullptr;
+    pkt2 = nullptr;
+    pkt3 = nullptr;
 
     //system("pause");
     return 0;
