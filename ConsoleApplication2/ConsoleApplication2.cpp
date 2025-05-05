@@ -271,31 +271,25 @@ void srwqerfsdrgtfjgjk::Execute2(int* cmdBuffer)
 
 int main()
 {
-    dyhfghnbfgjjfgj* pkt1 = new dyhfghnbfgjjfgj();
-    dyhfghnbfgjjfgj* pkt2 = new dyhfghnbfgjjfgj();
-    dyhfghnbfgjjfgj* pkt3 = new dyhfghnbfgjjfgj();
+    dyhfghnbfgjjfgj* pkt = new dyhfghnbfgjjfgj();
 
-    pkt1->m_picturePkt = new srwqerfsdrgtfjgjk();
-    pkt1->yfggvsdd456546hghjghkj(nullptr);
-    delete pkt1->m_picturePkt;
-    pkt1->m_picturePkt = nullptr;
+    pkt->m_picturePkt = new srwqerfsdrgtfjgjk();
+    pkt->yfggvsdd456546hghjghkj(nullptr);
+    delete pkt->m_picturePkt;
+    pkt->m_picturePkt = nullptr;
 
-    pkt2->m_picturePkt = new hghghjgyjfhfgssf();
-    pkt2->yfggvsdd456546hghjghkj(nullptr);
-    delete pkt2->m_picturePkt;
-    pkt2->m_picturePkt = nullptr;
+    pkt->m_picturePkt = new hghghjgyjfhfgssf();
+    pkt->yfggvsdd456546hghjghkj(nullptr);
+    delete pkt->m_picturePkt;
+    pkt->m_picturePkt = nullptr;
 
-    pkt3->m_picturePkt = new uyuimnfnbdfgwsz();
-    pkt3->yfggvsdd456546hghjghkj(nullptr);
-    delete pkt3->m_picturePkt;
-    pkt3->m_picturePkt = nullptr;
+    pkt->m_picturePkt = new uyuimnfnbdfgwsz();
+    pkt->yfggvsdd456546hghjghkj(nullptr);
+    delete pkt->m_picturePkt;
+    pkt->m_picturePkt = nullptr;
 
-    delete pkt1;
-    delete pkt2;
-    delete pkt3;
-    pkt1 = nullptr;
-    pkt2 = nullptr;
-    pkt3 = nullptr;
+    delete pkt;
+    pkt = nullptr;
 
     //system("pause");
     return 0;
